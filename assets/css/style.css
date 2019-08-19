@@ -1,0 +1,11 @@
+#jumbotron  {
+    background-color: rgba(8, 8, 8, 0.85);
+}
+
+body    {
+    background-image: url(../images/body-background.jpg);
+    background-size: cover;
+}
+#card-header, #card-header-sched     {
+    background-color: firebrick;
+}
