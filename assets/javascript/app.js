@@ -74,7 +74,8 @@ database.ref().on("child_added", function (childSnapshot) {
         $("<td>").text(trainDestination),
         $("<td>").text(trainFrequency),
         $("<td>").text(nextTrain),
-        $("<td>").text(minutesAway)
+        $("<td>").text(minutesAway),
+        $("<td>").text(removeTrain)
     );
 
     // Append the new row to the table
@@ -88,7 +89,9 @@ function timeDisplay(){
     $("#date-time").text("Current Time: " + displayDateTime);
 }
 
-
+function removeTrain() {
+    
+}
 
     
 
