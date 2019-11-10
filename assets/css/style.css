@@ -5,6 +5,7 @@
 body    {
     background-image: url(../images/body-background.jpg);
     background-size: cover;
+    background-attachment: fixed;
 }
 #card-header, #card-header-sched     {
     background-color: firebrick;
